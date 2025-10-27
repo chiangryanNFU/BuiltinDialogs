@@ -22,5 +22,9 @@ private:
     QPushButton *pageButton;
     QPushButton *progressButton;
     QPushButton *printButton;
+    QPushButton *textcolorButton;
+private slots:
+    void doPushBtn();
+    void doTextColor();
 };
 #endif // CBUILTINDLG_H
